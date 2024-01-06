@@ -4,7 +4,6 @@ app = Flask(__name__)
 
 def calcular_taxa_juros(renda_mensal):
     # Lógica para calcular a taxa de juros com base na renda mensal
-    # Exemplo simples: Se a renda for menor que 5000, taxa de juros é 5%, senão 3%
     if renda_mensal < 5000:
         return 5.0
     else:
@@ -26,7 +25,7 @@ def calcular_emprestimo():
     valor_emprestimo = float(request.form['valor_emprestimo'])
     prazo_emprestimo = int(request.form['prazo_emprestimo'])
 
-    # Lógica de cálculo de taxa de juros (pode ser personalizada)
+    # Lógica de cálculo de taxa de juros 
     taxa_juros = calcular_taxa_juros(renda_mensal)
 
     # Cálculo das prestações mensais
