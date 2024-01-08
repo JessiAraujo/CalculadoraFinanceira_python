@@ -33,7 +33,7 @@ main {
 }
 
 .container {
-    width: 400px;
+    max-width: 400px;
     box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
     border-radius: 20px;
     display: flex;
@@ -53,7 +53,6 @@ label {
 }
 
 input {
-    color: #ccff3388;
     background: #ffffff81;
     border: 1px solid #BBBBBB;
     border-radius: 4px;

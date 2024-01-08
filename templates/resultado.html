@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultado do Empréstimo</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='pig_coin.gif') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='resultado.css') }}">
 </head>
+
 <body>
-    <h1>Resultado do Empréstimo</h1>
-    <p>Valor Negociado (sem juros): R$ {{ valor_negociado }}</p>
-    <p>Total do Saldo Devedor (principal + encargos): R$ {{ total_saldo_devedor }}</p>
-    <p>Valor da Entrada : R$ {{ valor_entrada }}</p>
-    <p>Valor Mensal das Parcelas: R$ {{ prestacoes_mensais }}</p>
-    <p>Número de Parcelas: {{ numero_parcelas }}</p>
-    <p>Taxa de Juros: {{ taxa_juros }}%</p>
-
+    <div class="container">
+        <img class="logo_h1" src="{{ url_for('static', filename='pig_coin.gif') }}">
+        <h1>Resultado do Empréstimo</h1>
+        <main>
+        <p>Valor Negociado (sem juros): <br> <b>R$ {{ valor_negociado }}</b></p>
+        <p>Total do Saldo Devedor (principal + encargos): <br> <b>R$ {{ total_saldo_devedor }}</b></p>
+        <p>Valor da Entrada : <br> <b>R$ {{ valor_entrada }}</b></p>
+        <p>Valor Mensal das Parcelas: <br> <b>R$ {{ prestacoes_mensais }}</b></p>
+        <p>Número de Parcelas: <br> <b>{{ numero_parcelas }}x</b></p>
+        <p>Taxa de Juros: <br> <b>{{ taxa_juros }}%</b></p>
+    </main>
+    </div>
 </body>
-</html>
 
+</html>

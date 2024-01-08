@@ -5,15 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Financeira</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='pig_coin.gif') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='style_index.css') }}">
 </head>
 
 <body>
     <div class="container">
         <img class="logo_h1" src="{{ url_for('static', filename='pig_coin.gif') }}">
-        <header>
             <h1>Calculadora Financeira</h1>
-        </header>
 
         <main>
             <form action="/calcular_emprestimo" method="post">
