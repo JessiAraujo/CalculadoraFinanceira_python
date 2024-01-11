@@ -17,19 +17,28 @@
         <main>
             <form action="/calcular_emprestimo" method="post">
                 <label for="renda_mensal">Renda Mensal:</label>
-                <input type="text" name="renda_mensal" required>
+                <input type="text" id="renda_mensal" name="renda_mensal" required>
                 <br>
                 <label for="valor_emprestimo">Valor do Empréstimo:</label>
-                <input type="text" name="valor_emprestimo" required>
+                <input type="text" id="valor_emprestimo" name="valor_emprestimo" required>
                 <br>
                 <label for="prazo_emprestimo">Prazo do Empréstimo (em meses):</label>
-                <input type="text" name="prazo_emprestimo" required>
+                <input type="text" id="prazo_emprestimo" name="prazo_emprestimo" required>
                 <br>
                 <button type="submit">Calcular Empréstimo</button>
+                <button type="button" value="limpar campos" onclick="limparCampos()">Limpar Campos</button>
             </form>
             {% if mensagem_erro %}
             <p style="color: red;">{{ mensagem_erro }}</p>
             {% endif %}
+
+            <script>
+                function limparCampos(){
+                    document.getElementById("renda_mensal").value = "";
+                    document.getElementById("valor_emprestimo").value = "";
+                    document.getElementById("prazo_emprestimo").value = "";
+                }
+            </script>
         </main>
     </div>
 </body>

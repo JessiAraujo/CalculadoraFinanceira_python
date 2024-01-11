@@ -66,6 +66,7 @@ def calcular_custo_total_emprestimo(prestacoes_mensais, prazo_emprestimo):
     return custo_total_emprestimo
 
 
+
 if __name__ == '__main__':
     app.run(debug=True)
 
