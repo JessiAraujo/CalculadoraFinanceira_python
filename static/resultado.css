@@ -47,3 +47,38 @@ main {
 b {
     color: #CCFF33;
 }
+
+button {
+    background: #ccff3388;
+    border-radius: 25px;
+    height: 48px;
+    width: 100%;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    transform: scale(1.1);
+    background-color: #ccff33d8;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong {
+    color: #FFFFFF;
+}

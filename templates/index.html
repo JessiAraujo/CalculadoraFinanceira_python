@@ -31,16 +31,16 @@
             {% if mensagem_erro %}
             <p style="color: red;">{{ mensagem_erro }}</p>
             {% endif %}
-
-            <script>
-                function limparCampos(){
-                    document.getElementById("renda_mensal").value = "";
-                    document.getElementById("valor_emprestimo").value = "";
-                    document.getElementById("prazo_emprestimo").value = "";
-                }
-            </script>
         </main>
     </div>
+    
+    <script>
+        function limparCampos(){
+            document.getElementById("renda_mensal").value = "";
+            document.getElementById("valor_emprestimo").value = "";
+            document.getElementById("prazo_emprestimo").value = "";
+        }
+    </script>
 </body>
 
 </html>
