@@ -29,7 +29,7 @@
 
 ## :house: Sobre o Projeto
 
-O Chatbot da Adidas o nosso adidasbot foi e esta sendo desenvolvido em grupo por estudantes do programa de estudos Metch! Anderson, Jéssica e Alexander. Este projeto é uma aplicação web desenvolvida em Python usando Flask para calcular empréstimos com base na renda mensal, valor desejado e prazo de pagamento. A aplicação utiliza uma lógica para calcular a taxa de juros com base na renda mensal fornecida. para a conclusão do modulo final de estudos do programa de estudos Match! em parceria com Mastertach e IBM. Nossa equipe escolheu.
+Projeto desenvolvido em grupo por estudantes do programa de estudos Metch! Anderson, Jéssica e Alexander. Este projeto é uma aplicação web desenvolvida em Python usando Flask para calcular empréstimos com base na renda mensal, valor desejado e prazo de pagamento. A aplicação utiliza uma lógica para calcular a taxa de juros com base na renda mensal fornecida. para a conclusão do modulo final de estudos do programa de estudos Match! em parceria com Mastertach e IBM. Nossa equipe escolheu.
 
 ## :gear: Funcionalidades
 
