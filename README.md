@@ -48,15 +48,19 @@ O projeto possui as seguintes funcionalidades:
 ## :white_check_mark: Instalação
 
 1. Clone o repositório:
-`git clone https://github.com/seu-usuario/nome-do-repositorio.git`
-
-2. Instale as dependências:
-`pip install -r requirements.txt`
+```
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+```
+3. Instale as dependências:
+```
+pip install -r requirements.txt
+```
 
 ## :arrow_forward: Executando a Aplicação
 Execute o seguinte comando no terminal:
-`app.py`
-
+```
+app.py
+```
 ## :open_book: Como Usar
 
 1. Abra a aplicação no navegador.
