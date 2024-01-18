@@ -80,9 +80,9 @@ Este projeto é de código aberto e está sob a licença exclusiva. Você é liv
 
 Feito com ♥ pela equipe de alunos do programa de estudos Match! - Mastertech e IBM :wave:
 
-[Entre em contato - Anderson Leite | Desenvolvedor Front-end](https://www.linkedin.com/in/andersondiasleite/)
-
 [Entre em contato - Jéssica Araújo | Desenvolvedora Fullstack](https://www.linkedin.com/in/jessica-araujo90/)
+
+[Entre em contato - Anderson Leite | Desenvolvedor Front-end](https://www.linkedin.com/in/andersondiasleite/)
 
 [Entre em contato - Alexander Pereira | Desenvolvedor Back-end](https://www.linkedin.com/in/alexnderp/)
 
