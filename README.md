@@ -1,6 +1,6 @@
 # Calculadora Financeira
 
-[Experimente agora o adidasbot](https://calculadora-financeira-python.vercel.app/)
+[Experimente agora](https://calculadora-financeira-python.vercel.app/)
 
 <h3 align="center">
   Seja bem-vindo a nossa Calculadora Financeira!
