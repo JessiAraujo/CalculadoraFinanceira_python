@@ -23,7 +23,7 @@
 <br>
 
 <p align="center">
-  <img width="960" height="540" alt="Layout" src="./img/demo/demo-projeto.gif">
+  <img width="960" height="540" alt="Layout" src="api/static/demo-projeto.gif">
 </p>
 <br>
 
